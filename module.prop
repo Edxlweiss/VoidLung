@@ -1,0 +1,6 @@
+id=voidlung
+name=VoidLung
+version=1.0.0
+versionCode=100
+author=edxlweiss
+description=Force-stops all background apps except whitelisted and current app. A brutal breath for clean performance.

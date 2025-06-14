@@ -1,0 +1,43 @@
+# VoidLung Whitelist
+# Apps in this list will not be killed by the cleaner
+# Format: one package name per line
+
+#KSU & KSUN & Magisk
+com.rifsxd.ksunext
+com.topjohnwu.magisk
+com.topjohnwu.magisk.delta
+com.topjohnwu.mahisk.alpha
+io.github.huskydg.magisk
+org.kernelsu.r
+dev.ksu.nextmanager
+org.kernelsu.rootmanager
+
+# Google Core
+com.google.android.gms
+com.google.android.gsf
+com.google.android.gsf.login
+com.google.android.location
+
+# Play Store
+com.android.vending
+
+# Core System Services
+android
+com.android.systemui
+com.android.settings
+com.android.bluetooth
+com.android.nfc
+com.android.devicepolicy
+com.android.packageinstaller
+
+# Telephony & Connectivity
+com.android.phone
+com.android.server.wifi
+com.android.inputdevices
+com.android.location.fused
+
+# Media & Contacts
+com.android.providers.media
+com.android.providers.contacts
+
+# User-Apps
