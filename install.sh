@@ -31,6 +31,10 @@ unzip -o "$ZIPFILE" 'verify.sh' -d $MODPATH >&2
 ui_print "- Extracting whitelist.txt"
 unzip -o "$ZIPFILE" 'whitelist.txt' -d $MODPATH >&2
 
+# Extract Web UI
+ui_print "- Extracting Web UI (webroot/)"
+unzip -o "$ZIPFILE" 'webroot/*' -d $MODPATH >&2
+
 # Prepare persistent data directory
 ui_print "- Creating /sdcard/Android/VoidLung"
 mkdir -p /sdcard/Android/VoidLung

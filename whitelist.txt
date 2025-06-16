@@ -1,6 +1,6 @@
 # VoidLung Whitelist
 # Apps in this list will not be killed by the cleaner
-# Format: one package name per line
+# Format: one package name per line below # User-Apps
 
 #KSU & KSUN & Magisk
 com.rifsxd.ksunext
